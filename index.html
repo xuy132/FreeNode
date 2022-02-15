@@ -12,12 +12,14 @@
     <meta property="og:description" content="一个为大家提供免费的、高可用的、不断更新的节点列表的地方，不管你是需要稳定的节点，还是来这里寻找度过敏感时期的稻草，我们都随时对任何人开放。">
     <meta property="og:locale" content="zh_CN">
     <meta property="article:author" content="MK/FreeNode">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
-    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="bower_components/paper-audio-player/paper-audio-player.html">
   </head>
   <body class="mdui-theme-layout-dark">
+    <header>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css" />
+      <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
+      <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+      <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
+    </header>
     <main>
       <div class="mdui-container">
         <div class="mdui-typo">
@@ -124,6 +126,14 @@
         </div>
       </div>
     </main>
-    <paper-audio-player src="nanana.mp3"></paper-audio-player>
+    <footer>
+      <script src="https://cdn.jsdelivr.net/npm/vconsole/dist/vconsole.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/color-thief-don@2.0.2/src/color-thief.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+      <meting-js server="netease" type="playlist" id="7293829827" fixed="true"></meting-js>
+    </footer>
   </body>
 </html>
